@@ -75,6 +75,8 @@ config("skia_private") {
   , "//modules/skresources:*"
   , "//modules/particles:*"
   , "//modules/skottie:*"
+  , "//modules/skparagraph:*"
+  , "//experimental/skrive:*"
   ]
 
   defines = [ "SK_GAMMA_APPLY_TO_A8" ]
